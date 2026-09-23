@@ -1,0 +1,27 @@
+# Normalización de saltos de línea para un equipo mixto Mac + Windows.
+#
+# El repositorio guarda SIEMPRE en LF; cada quien recibe en su disco el salto
+# de línea nativo de su sistema (CRLF en Windows, LF en Mac/Linux). Sin este
+# archivo el comportamiento depende del `core.autocrlf` local de cada
+# desarrollador: quien lo tenga en `false` commitea CRLF y provoca diffs
+# fantasma de archivos que nadie tocó.
+#
+# Para comprobar el estado real:  git ls-files --eol
+* text=auto
+
+# Binarios: nunca aplicar conversión de texto (los corrompería).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
+
+# Scripts de Windows: necesitan CRLF para ejecutarse de forma fiable.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Scripts de shell: siempre LF, aunque se editen en Windows.
+*.sh text eol=lf

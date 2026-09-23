@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Netlify Dev: Vite corre en 8080 (ver vite.config.ts), no en el 5173 por defecto.
+# Abre el sitio en el puerto `port` (8888): ahí se sirven Vite + las funciones /api.
+[dev]
+  command = "npm run dev"
+  targetPort = 8080
+  port = 8888
+  framework = "#custom"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# La función generar-cotizacion expone su propia ruta vía config.path (/api/...).
+# Fallback SPA: cualquier otra ruta sirve index.html (React Router).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

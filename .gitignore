@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.obsidian/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# CSV derivados para records del usuario (no son fuente del sitio)
+catalog/_export/
+
+# Local Netlify folder
+.netlify
+
+# Local Development folder
+.local-development/
+
+# Variables de entorno locales (SMTP, etc.)
+.env
+.env.*
+
+# Instalador de Claude Code, no es parte del proyecto
+install.cmd
