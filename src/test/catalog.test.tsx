@@ -11,9 +11,18 @@ const catalog = catalogData as Catalog;
 // Two sizes, no sale (34/34 and 44/44). Default selection is the first variant, MAM-2L.
 const mamila = catalog.families.find((f) => f.id === "mamila-para-becerro-con-chupon")!;
 
-// Only family left holding a real sale: TM-05 (153 -> 152.5). It is not the default
-// variant, so the sale assertions below must select it first.
-const tolvaMetalica = catalog.families.find((f) => f.id === "tolva-metalica")!;
+// The 2026 catalog publishes no sale prices, so the sale rendering is exercised on a
+// copy of TM-05 (153 -> 152.5). It is not the default variant, so the sale assertions
+// below must select it first.
+const tolvaMetalicaBase = catalog.families.find((f) => f.id === "tolva-metalica")!;
+const tolvaMetalica = {
+  ...tolvaMetalicaBase,
+  variants: tolvaMetalicaBase.variants.map((v) =>
+    v.sku === "TM-05"
+      ? { ...v, basePrice: 153, salePrice: 152.5, currentPrice: 152.5, onSale: true, packPrice: 3050 }
+      : v,
+  ),
+};
 
 beforeEach(() => localStorage.clear());
 
@@ -115,8 +124,9 @@ describe("FamilyCard — family/variant images", () => {
   });
 });
 
-describe("FamilyCard — quote on request (separadores)", () => {
-  const separadores = catalog.families.find((f) => f.id === "separadores-para-tolva-plus")!;
+describe("FamilyCard — quote on request (comedero lineal plástico 22 cm)", () => {
+  // The only variant the 2026 catalog prints without a price.
+  const separadores = catalog.families.find((f) => f.id === "comedero-lineal-plastico-con-rejilla-metalica")!;
 
   it("shows 'Consulta precio' and never a zero price", () => {
     render(
@@ -142,7 +152,7 @@ describe("FamilyCard — quote on request (separadores)", () => {
     expect(screen.queryByRole("button", { name: "Agregar uno" })).not.toBeInTheDocument();
     const link = screen.getByRole("link", { name: /Consultar precio/ });
     expect(link).toHaveAttribute("href", expect.stringContaining("wa.me"));
-    expect(decodeURIComponent(link.getAttribute("href")!)).toContain("SEP-TP-CH");
+    expect(decodeURIComponent(link.getAttribute("href")!)).toContain("CLM-22");
   });
 
   it("keeps the cart empty even when add() is called directly", () => {
@@ -164,8 +174,8 @@ describe("FamilyCard — quote on request (separadores)", () => {
     expect(screen.getByTestId("probe").textContent).toBe("0|0");
   });
 
-  it("all three sizes are published without a price", () => {
-    expect(separadores.variants.map((v) => v.label)).toEqual(["Chico", "Mediano", "Grande"]);
+  it("is published without a price", () => {
+    expect(separadores.variants.map((v) => v.label)).toEqual(["22 cm"]);
     for (const v of separadores.variants) {
       expect(v.quoteOnRequest).toBe(true);
       expect(v.currentPrice).toBeNull();
@@ -173,6 +183,18 @@ describe("FamilyCard — quote on request (separadores)", () => {
       expect(v.packPrice).toBeNull();
       expect(v.onSale).toBe(false);
     }
+  });
+});
+
+describe("Catalog data — separadores para tolva", () => {
+  it("publishes the 2026 catalog prices", () => {
+    const sep = catalog.families.find((f) => f.id === "separadores-para-tolva-plus")!;
+    expect(sep.variants.map((v) => [v.label, v.currentPrice])).toEqual([
+      ["Chico", 13],
+      ["Mediano", 14],
+      ["Grande", 16],
+    ]);
+    for (const v of sep.variants) expect(v.quoteOnRequest).toBe(false);
   });
 });
 

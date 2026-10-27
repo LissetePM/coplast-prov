@@ -1,71 +1,77 @@
 sku,categoria,producto,variante,material,colores,colores_disponibles,piezas_por_paquete,precio_planta,precio_oferta,consultar_precio,unidad_precio,moneda,novedad,disponible,pagina_catalogo,imagen,descripcion
-CLM-22,Comederos,Comedero lineal plástico con rejilla metálica,22 cm,Plástico,,,50,26,26,No,por pieza,MXN,Si,Si,2,comedero_lineal_plastico_rejilla.webp,"Comedero lineal de 22 cm con rejilla metálica. Próximamente, más medidas."
-CM-ML,Comederos,Comederos varios,Media luna 250 g,Plástico,Varios colores,,100,4,4,No,por pieza,MXN,No,Si,3,comederos_plasticos_varios.webp,"Comedero plástico tipo media luna, para pollitos. Disponible en varios colores."
-CM-CH,Comederos,Comederos varios,Champion 250 g,Plástico,Varios colores,,100,6,6,No,por pieza,MXN,No,Si,3,comederos_plasticos_varios.webp,"Comedero champion de plástico para aves, varios colores."
-CM-CU,Comederos,Comederos varios,Cuadrado 350 g,Plástico,Varios colores,,100,6,6,No,por pieza,MXN,No,Si,3,comederos_plasticos_varios.webp,"Comedero cuadrado de plástico, práctico y resistente."
-CM-R05,Comederos,Comederos redondos,500 gr,Plástico,Varios colores,,140,6,6,No,por pieza,MXN,No,Si,3,comederos_redondos.webp,"Comedero redondo de 500 gr de capacidad, plástico de colores."
-CM-R1K,Comederos,Comederos redondos,1 kg,Plástico,Varios colores,,100,8,8,No,por pieza,MXN,No,Si,3,comederos_redondos.webp,"Comedero redondo de 1 kg de capacidad, plástico resistente."
-CM-R2K,Comederos,Comederos redondos,2 kg,Plástico,Varios colores,,100,12,12,No,por pieza,MXN,No,Si,3,comederos_redondos.webp,"Comedero redondo de 2 kg de capacidad, en plástico resistente."
-CM-CT,Comederos,Comederos varios,Cuadrado con tapa 750 g,Plástico,Varios colores,,100,12,12,No,por pieza,MXN,No,Si,3,comederos_plasticos_varios.webp,"Comedero con tapa para proteger el alimento, plástico de colores."
-CP-05,Comederos,Comedero para perico,500 mg,Metálico,Galvanizado,,50,30,37,No,por pieza,MXN,No,Si,4,comedero_perico.webp,"Comedero metálico galvanizado para perico, capacidad 500 mg."
-CP-1K,Comederos,Comedero para perico,1 kg,Metálico,Galvanizado,,50,47,47,No,por pieza,MXN,No,Si,4,comedero_perico.webp,"Comedero metálico galvanizado para perico, capacidad 1 kg."
-MAM-2L,Bebederos,Mamila para becerro con chupón,Lisa 2 L,Plástico,Blanco,,60,34,34,No,por pieza,MXN,No,Si,4,mamila_becerro.webp,Mamila con chupón para lactancia de animales de granja.
-MAM-3L,Bebederos,Mamila para becerro con chupón,Con asa 3 L,Plástico,Blanco,,40,44,44,No,por pieza,MXN,No,Si,4,mamila_becerro.webp,Mamila con chupón para lactancia de animales de granja.
-TM-12,Tolvas,Tolva metálica,12 kg,Metálico,Galvanizado,,12,205,205,No,por pieza,MXN,No,Si,5,tolva_metalica.webp,"Tolva metálica galvanizada de 12 kg, alta durabilidad para alimento."
-TM-08,Tolvas,Tolva metálica,8 kg,Metálico,Galvanizado,,15,184,184,No,por pieza,MXN,No,Si,5,tolva_metalica.webp,Tolva metálica galvanizada de 8 kg para alimento de aves.
-TM-05,Tolvas,Tolva metálica,5 kg,Metálico,Galvanizado,,20,153,152.5,No,por pieza,MXN,No,Si,5,tolva_metalica.webp,"Tolva metálica galvanizada de 5 kg, resistente y reutilizable."
-TM-03,Tolvas,Tolva metálica,3 kg,Metálico,Galvanizado,,20,142,142,No,por pieza,MXN,No,Si,5,tolva_metalica.webp,Tolva metálica galvanizada de 3 kg para parvadas chicas.
+CLM-22,Comederos,Comedero lineal plástico con rejilla metálica,22 cm,Plástico,,,50,,,Si,por pieza,MXN,Si,Si,8,comedero_lineal_plastico_rejilla.webp,"Comedero lineal de 22 cm con rejilla metálica. Próximamente, más medidas."
+CM-ML,Comederos,Comederos varios,Media luna 250 g,Plástico,Varios colores,,100,4,4,No,por pieza,MXN,No,Si,7,comederos_plasticos_varios.webp,"Comedero plástico tipo media luna, para pollitos. Disponible en varios colores."
+CM-CH,Comederos,Comederos varios,Champion 250 g,Plástico,Varios colores,,100,6,6,No,por pieza,MXN,No,Si,7,comederos_plasticos_varios.webp,"Comedero champion de plástico para aves, varios colores."
+CM-CU,Comederos,Comederos varios,Cuadrado 350 g,Plástico,Varios colores,,100,6,6,No,por pieza,MXN,No,Si,7,comederos_plasticos_varios.webp,"Comedero cuadrado de plástico, práctico y resistente."
+CM-R05,Comederos,Comederos redondos,500 gr,Plástico,Varios colores,,100,6,6,No,por pieza,MXN,No,Si,7,comederos_redondos.webp,"Comedero redondo de 500 gr de capacidad, plástico de colores."
+CM-R1K,Comederos,Comederos redondos,1 kg,Plástico,Varios colores,,100,8,8,No,por pieza,MXN,No,Si,7,comederos_redondos.webp,"Comedero redondo de 1 kg de capacidad, plástico resistente."
+CM-CT,Comederos,Comederos varios,Cuadrado con tapa 750 g,Plástico,Varios colores,,100,12,12,No,por pieza,MXN,No,Si,7,comederos_plasticos_varios.webp,"Comedero con tapa para proteger el alimento, plástico de colores."
+CP-05,Comederos,Comedero para perico,250 g,Metálico,Galvanizado,,50,37,37,No,por pieza,MXN,No,Si,10,comedero_perico.webp,"Comedero metálico galvanizado para perico, capacidad 250 g."
+CP-1K,Comederos,Comedero para perico,500 g,Metálico,Galvanizado,,50,47,47,No,por pieza,MXN,No,Si,10,comedero_perico.webp,"Comedero metálico galvanizado para perico, capacidad 500 g."
+MAM-2L,Bebederos,Mamila para becerro con chupón,Lisa 3 L,Plástico,Blanco,,60,34,34,No,por pieza,MXN,No,Si,5,mamila_becerro.webp,Mamila con chupón para lactancia de animales de granja.
+MAM-3L,Bebederos,Mamila para becerro con chupón,Con asa 3 L,Plástico,Blanco,,40,44,44,No,por pieza,MXN,No,Si,5,mamila_becerro.webp,Mamila con chupón para lactancia de animales de granja.
+TM-12,Tolvas,Tolva metálica,12 kg,Metálico,Galvanizado,,20,205,205,No,por pieza,MXN,No,Si,9,tolva_metalica.webp,"Tolva metálica galvanizada de 12 kg, alta durabilidad para alimento."
+TM-08,Tolvas,Tolva metálica,8 kg,Metálico,Galvanizado,,20,184,184,No,por pieza,MXN,No,Si,9,tolva_metalica.webp,Tolva metálica galvanizada de 8 kg para alimento de aves.
+TM-05,Tolvas,Tolva metálica,5 kg,Metálico,Galvanizado,,20,153,153,No,por pieza,MXN,No,Si,9,tolva_metalica.webp,"Tolva metálica galvanizada de 5 kg, resistente y reutilizable."
+TM-03,Tolvas,Tolva metálica,3 kg,Metálico,Galvanizado,,20,142,142,No,por pieza,MXN,No,Si,9,tolva_metalica.webp,Tolva metálica galvanizada de 3 kg para parvadas chicas.
 TP-05,Tolvas,Tolva plus,5 kg,Plástico,Amarillo/Rojo,,10,84,95,No,por pieza,MXN,No,Si,6,tolva_plus.webp,"Tolva plus de plástico de 5 kg con base, facil de limpiar."
 TP-08,Tolvas,Tolva plus,8 kg,Plástico,Amarillo/Rojo,,10,116,126,No,por pieza,MXN,No,Si,6,tolva_plus.webp,Tolva plus de plástico de 8 kg con base reforzada.
 TP-12,Tolvas,Tolva plus,12 kg,Plástico,Amarillo/Rojo,,10,126,147,No,por pieza,MXN,No,Si,6,tolva_plus.webp,"Tolva plus de plástico de 12 kg, mayor capacidad de alimento."
-SEP-TP-CH,Tolvas,Separadores para Tolva Plus,Chico,,,,,,,Si,por pieza,MXN,No,Si,,separadores_tolva_plus.webp,Separador chico para Tolva metálica.
-SEP-TP-MD,Tolvas,Separadores para Tolva Plus,Mediano,,,,,,,Si,por pieza,MXN,No,Si,,separadores_tolva_plus.webp,Separador mediano para Tolva tradicional y Tolva plus.
-SEP-TP-GR,Tolvas,Separadores para Tolva Plus,Grande,,,,,,,Si,por pieza,MXN,No,Si,,separadores_tolva_plus.webp,Separador grande para Tolva tradicional y Tolva plus.
-TT-01,Tolvas,Tolva tradicional,1 kg,Plástico,Amarillo o negro,Amarillo|Negro,50,23.5,26.5,No,por pieza,MXN,No,Si,7,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
-TT-03,Tolvas,Tolva tradicional,3 kg,Plástico,Amarillo o negro,Amarillo|Negro,25,53,58,No,por pieza,MXN,No,Si,7,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
-TT-05,Tolvas,Tolva tradicional,5 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,68.5,74,No,por pieza,MXN,No,Si,7,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
-TT-08,Tolvas,Tolva tradicional,8 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,84,95,No,por pieza,MXN,No,Si,7,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
-TT-12,Tolvas,Tolva tradicional,12 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,105,126,No,por pieza,MXN,No,Si,7,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
+SEP-TP-CH,Tolvas,Separadores para Tolva Plus,Chico,,,,,13,13,No,por pieza,MXN,No,Si,16,separadores_tolva_plus.webp,Separador chico para tolva de 3 kg y 5 kg.
+SEP-TP-MD,Tolvas,Separadores para Tolva Plus,Mediano,,,,,14,14,No,por pieza,MXN,No,Si,16,separadores_tolva_plus.webp,Separador mediano para tolva metálica de 5 kg.
+SEP-TP-GR,Tolvas,Separadores para Tolva Plus,Grande,,,,,16,16,No,por pieza,MXN,No,Si,16,separadores_tolva_plus.webp,Separador grande para tolva de 8 kg y 12 kg.
+TT-01,Tolvas,Tolva tradicional,1 kg,Plástico,Amarillo o negro,Amarillo|Negro,50,23.5,26.5,No,por pieza,MXN,No,Si,6,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
+TT-03,Tolvas,Tolva tradicional,3 kg,Plástico,Amarillo o negro,Amarillo|Negro,25,53,58,No,por pieza,MXN,No,Si,6,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
+TT-05,Tolvas,Tolva tradicional,5 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,68.5,74,No,por pieza,MXN,No,Si,6,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
+TT-08,Tolvas,Tolva tradicional,8 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,84,95,No,por pieza,MXN,No,Si,6,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
+TT-12,Tolvas,Tolva tradicional,12 kg,Plástico,Amarillo o negro,Amarillo|Negro,10,105,126,No,por pieza,MXN,No,Si,6,tolvas_tradicionales_colores.webp,"Disponible en distintos colores, sujetos a disponibilidad. Colores básicos: amarillo y negro."
 CLM-20,Comederos,Comedero lineal metálico con rejilla,20 cm,Metálico,Galvanizado,,20,46,46,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 20 cm, galvanizado."
 CLM-30,Comederos,Comedero lineal metálico con rejilla,30 cm,Metálico,Galvanizado,,20,49,49,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 30 cm, galvanizado."
-CLM-40,Comederos,Comedero lineal metálico con rejilla,40 cm,Metálico,Galvanizado,,10,52,52,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 40 cm, galvanizado."
-CLM-60,Comederos,Comedero lineal metálico con rejilla,60 cm,Metálico,Galvanizado,,10,56,56,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 60 cm, galvanizado."
+CLM-40,Comederos,Comedero lineal metálico con rejilla,40 cm,Metálico,Galvanizado,,20,52,52,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 40 cm, galvanizado."
+CLM-60,Comederos,Comedero lineal metálico con rejilla,60 cm,Metálico,Galvanizado,,20,56,56,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 60 cm, galvanizado."
+CLM-90,Comederos,Comedero lineal metálico con rejilla,90 cm,Metálico,Galvanizado,,20,87,87,No,por pieza,MXN,No,Si,8,comedero_lineal_metalico.webp,"Comedero lineal metálico con rejilla de 90 cm, galvanizado."
 CL-3B,Comederos,Comedero para lechón,3 bocas,Metálico,Galvanizado,,5,368,368,No,por pieza,MXN,No,Si,9,comedero_lechon.webp,"Comedero metálico para lechón de 3 bocas, uso rudo."
 CL-4B,Comederos,Comedero para lechón,4 bocas,Metálico,Galvanizado,,5,420,420,No,por pieza,MXN,No,Si,9,comedero_lechon.webp,"Comedero metálico para lechón de 4 bocas, alta resistencia."
-NID-EU,Conejos,Nido para conejo,Chico Europeo,Metálico,Galvanizado,,10,150,150,No,por pieza,MXN,No,Si,9,nido_conejo.webp,"Nido metálico para conejo, ideal para maternidad."
-NID-AM,Conejos,Nido para conejo,Grande Americano,Metálico,Galvanizado,,10,170,170,No,por pieza,MXN,No,Si,9,nido_conejo.webp,"Nido metálico para conejo, ideal para maternidad."
-BC-05,Bebederos,Bebedero colgante,1/2 litro,Plástico,Blanco/Rojo,,,17,20,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,"Bebedero colgante de 1/2 litro para aves, plástico."
-BC-1,Bebederos,Bebedero colgante,1 litro,Plástico,Blanco/Rojo,,,20,23.5,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 1 litro para aves.
-BC-2,Bebederos,Bebedero colgante,2 litros,Plástico,Blanco/Rojo,,,23.5,27.5,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 2 litros para aves.
-BC-4,Bebederos,Bebedero colgante,4 litros,Plástico,Blanco/Rojo,,,31,36,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 4 litros para aves.
-BC-5,Bebederos,Bebedero colgante,5 litros,Plástico,Blanco/Rojo,,,38,42,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 5 litros para aves.
-BC-6,Bebederos,Bebedero colgante,6 litros,Plástico,Blanco/Rojo,,,45.5,50.5,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 6 litros para aves.
-BC-8,Bebederos,Bebedero colgante,8 litros,Plástico,Blanco/Rojo,,,84,84,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,Bebedero colgante de 8 litros para aves.
-BC-10,Bebederos,Bebedero colgante,10 litros,Plástico,Blanco/Rojo,,,116,116,No,por pieza,MXN,No,Si,10,bebedero_colgante.webp,"Bebedero colgante de 10 litros, mayor capacidad."
+NID-EU,Conejos,Nido para conejo,Chico Europeo,Metálico,Galvanizado,,10,150,150,No,por pieza,MXN,No,Si,10,nido_conejo.webp,"Nido metálico para conejo, ideal para maternidad."
+NID-AM,Conejos,Nido para conejo,Grande Americano,Metálico,Galvanizado,,10,170,170,No,por pieza,MXN,No,Si,10,nido_conejo.webp,"Nido metálico para conejo, ideal para maternidad."
+BC-05,Bebederos,Bebedero colgante,1/2 litro,Plástico,Blanco/Rojo,,,17,20,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,"Bebedero colgante de 1/2 litro para aves, plástico."
+BC-1,Bebederos,Bebedero colgante,1 litro,Plástico,Blanco/Rojo,,,20,23.5,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 1 litro para aves.
+BC-2,Bebederos,Bebedero colgante,2 litros,Plástico,Blanco/Rojo,,,23.5,27.5,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 2 litros para aves.
+BC-4,Bebederos,Bebedero colgante,4 litros,Plástico,Blanco/Rojo,,,31,36,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 4 litros para aves.
+BC-5,Bebederos,Bebedero colgante,5 litros,Plástico,Blanco/Rojo,,,38,42,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 5 litros para aves.
+BC-6,Bebederos,Bebedero colgante,6 litros,Plástico,Blanco/Rojo,,,45.5,50.5,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 6 litros para aves.
+BC-8,Bebederos,Bebedero colgante,8 litros,Plástico,Blanco/Rojo,,,84,84,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,Bebedero colgante de 8 litros para aves.
+BC-10,Bebederos,Bebedero colgante,10 litros,Plástico,Blanco/Rojo,,,116,116,No,por pieza,MXN,No,Si,4,bebedero_colgante.webp,"Bebedero colgante de 10 litros, mayor capacidad."
 TZ-PL5,Mascotas,Tazón para perro plástico,500 g,Plástico,Varios colores,,30,11,13,No,por pieza,MXN,No,Si,11,tazon_perro_plastico.webp,Tazón para perro plástico de 500 g.
 TZ-PL2,Mascotas,Tazón para perro plástico,2 kg,Plástico,Varios colores,,30,30,30,No,por pieza,MXN,No,Si,11,tazon_perro_plastico.webp,Tazón para perro plástico de 2 kg.
-TZ-MT5,Mascotas,Tazón para perro metálico,500 g,Plástico,Varios colores,,30,30,30,No,por pieza,MXN,No,Si,11,tazon_perro_metalico.webp,Tazón para perro metálico de 500 g.
-TZ-MT2,Mascotas,Tazón para perro metálico,2 kg,Plástico,Varios colores,,30,63,63,No,por pieza,MXN,No,Si,11,tazon_perro_metalico.webp,Tazón para perro metálico de 2 kg.
+TZ-MT5,Mascotas,Tazón para perro metálico,500 g,Metálico,Varios colores,,15,30,30,No,por pieza,MXN,No,Si,11,tazon_perro_metalico.webp,Tazón para perro metálico de 500 g.
+TZ-MT2,Mascotas,Tazón para perro metálico,2 kg,Metálico,Varios colores,,15,63,63,No,por pieza,MXN,No,Si,11,tazon_perro_metalico.webp,Tazón para perro metálico de 2 kg.
 TZ-DB,Mascotas,Tazón doble con botella,Estándar,Plástico,Varios colores,,30,30,30,No,por pieza,MXN,No,Si,11,tazon_doble_con_botella.webp,Tazón doble con botella dispensadora de agua para mascota.
-CNJ-S,Conejos,Conejera,Sencilla,Alambre galvanizado calibre 12 y 10,Alambre galvanizado,,,435,435,No,por pieza,MXN,Si,Si,12,conejera.webp,"Conejera sencilla de alambre galvanizado calibre 12 y 10, nueva linea de jaulas."
-CNJ-D,Conejos,Conejera,Doble,Alambre galvanizado calibre 12 y 10,Alambre galvanizado,,,444,444,No,por pieza,MXN,Si,Si,12,conejera.webp,"Conejera doble de alambre galvanizado calibre 12 y 10, nueva linea de jaulas."
-RAS-60,Jaulas,Rascadero,60 x 60 cm,Alambre galvanizado calibre 12 y 10,,,,220,220,No,por pieza,MXN,No,Si,,rascadero.webp,"Rascadero / jaula de 60 x 60 cm, fabricado en alambre galvanizado calibre 12 y 10."
-RAS-75,Jaulas,Rascadero,75 x 75 cm,Alambre galvanizado calibre 12 y 10,,,,280,280,No,por pieza,MXN,No,Si,,rascadero.webp,"Rascadero / jaula de 75 x 75 cm, fabricado en alambre galvanizado calibre 12 y 10."
-RAS-100,Jaulas,Rascadero,1 x 1 m,Alambre galvanizado calibre 12 y 10,,,,430,430,No,por pieza,MXN,No,Si,,rascadero.webp,"Rascadero / jaula de 1 x 1 m, fabricado en alambre galvanizado calibre 12 y 10."
-CM-BT,Conejos,Comedero metálico de bota,Estándar,Metálico,Galvanizado,,70,63,63,No,por pieza,MXN,No,Si,,comedero_bota_metalico.webp,Comedero metálico de bota. Paquete de 70 piezas.
-VOL,Jaulas,Voladero,1.50 x 1.50 x 1.05 m,Alambre galvanizado calibre 12 y 10,,,,735,735,No,por pieza,MXN,No,Si,,voladero.webp,"Voladero de alambre galvanizado calibre 12 y 10, 1.50 x 1.50 x 1.05 m."
-PAL-RJ,Jaulas,Palenquero,Rojo 60x60,Alambre galvanizado calibre 12,Rojo,,,525,525,No,por pieza,MXN,Si,Si,,palenquero_rojo.webp,"Palenquero de 60x60 cm, alambre galvanizado calibre 12, color rojo."
-PAL-SC-CP,Jaulas,Palenquero,Sin color 60x60 c/puerta,Alambre galvanizado calibre 12,,,,405,405,No,por pieza,MXN,Si,Si,,palenquero_rojo.webp,"Palenquero de 60x60 cm sin color, alambre galvanizado calibre 12, con puerta."
-PAL-SC-SP,Jaulas,Palenquero,Sin color 60x60 s/puerta,Alambre galvanizado calibre 12,,,,375,375,No,por pieza,MXN,Si,Si,,palenquero_rojo.webp,"Palenquero de 60x60 cm sin color, alambre galvanizado calibre 12, sin puerta."
-CAJ-TR,Accesorios avícolas,Caja transportadora,47 × 17 × 51 cm,,,,,48,48,No,por pieza,MXN,No,Si,,caja_transportadora.webp,"Caja transportadora para aves de 47 cm de alto, 17 cm de ancho y 51 cm de largo."
-BOT-PVC,Accesorios avícolas,Botadores,PVC,Plástico,,,,60,60,No,por par,MXN,Si,Si,,botadores.webp,"Par de botadores de PVC para gallo de pelea."
-BOT-PIEL,Accesorios avícolas,Botadores,Piel,Piel,,,,98,98,No,por par,MXN,Si,Si,,botadores.webp,"Par de botadores de piel para gallo de pelea."
-BOT-AM,Accesorios avícolas,Botadores,Americano,Plástico,,,,68,68,No,por par,MXN,Si,Si,,botadores.webp,"Par de botadores tipo americano para gallo de pelea."
-MONA-GR,Accesorios avícolas,Mona,Grande,Piel,,,,255,255,No,por pieza,MXN,Si,Si,,monas.webp,"Mona grande de piel para gallo de pelea."
-MONA-CH,Accesorios avícolas,Mona,Chica,Piel,,,,195,195,No,por pieza,MXN,Si,Si,,monas.webp,"Mona chica de piel para gallo de pelea."
-CALZA-L,Accesorios avícolas,Calza,Larga,,,,,21,21,No,por pieza,MXN,Si,Si,,calzas.webp,"Calza larga para gallo de pelea."
-CALZA-C,Accesorios avícolas,Calza,Corta,,,,,15,15,No,por pieza,MXN,Si,Si,,calzas.webp,"Calza corta para gallo de pelea."
-ROLLO-200,Accesorios avícolas,Rollo de hilo,200 m (verde),,Verde,,,263,263,No,por pieza,MXN,Si,Si,,rollo_hilo.webp,"Rollo de hilo de 200 m, color verde."
-ROLLO-150,Accesorios avícolas,Rollo de hilo,150 m (azul),,Azul,,,225,225,No,por pieza,MXN,Si,Si,,rollo_hilo.webp,"Rollo de hilo de 150 m, color azul."
-ROLLO-PARCHE,Accesorios avícolas,Rollo parche,Estándar,,,,,75,75,No,por pieza,MXN,Si,Si,,rollo_parche.webp,"Rollo de parche para gallo de pelea."
-ATOM-1L,Accesorios avícolas,Atomizador,1 L,,,,,14.5,14.5,No,por pieza,MXN,Si,Si,,atomizador.webp,Atomizador de 1 litro.
+CNJ-S,Conejos,Conejera,Sencilla,Alambre galvanizado calibre 12 y 10,Alambre galvanizado,,,435,435,No,por pieza,MXN,No,Si,15,conejera.webp,"Conejera sencilla de alambre galvanizado calibre 12 y 10, 40 x 60 x 90 cm."
+CNJ-D,Conejos,Conejera,Doble,Alambre galvanizado calibre 12 y 10,Alambre galvanizado,,,444,444,No,por pieza,MXN,No,Si,15,conejera.webp,"Conejera doble de alambre galvanizado calibre 12 y 10, 40 x 60 x 90 cm."
+RAS-60,Jaulas,Rascadero,60 x 60 cm,Alambre galvanizado calibre 12 y 10,,,,220,220,No,por pieza,MXN,No,Si,14,rascadero.webp,"Rascadero / jaula de 60 x 60 cm, fabricado en alambre galvanizado calibre 12 y 10."
+RAS-75,Jaulas,Rascadero,75 x 75 cm,Alambre galvanizado calibre 12 y 10,,,,280,280,No,por pieza,MXN,No,Si,14,rascadero.webp,"Rascadero / jaula de 75 x 75 cm, fabricado en alambre galvanizado calibre 12 y 10."
+RAS-100,Jaulas,Rascadero,1 x 1 m,Alambre galvanizado calibre 12 y 10,,,,430,430,No,por pieza,MXN,No,Si,14,rascadero.webp,"Rascadero / jaula de 1 x 1 m, fabricado en alambre galvanizado calibre 12 y 10."
+CM-BT,Conejos,Comedero metálico de bota,Estándar,Metálico,Galvanizado,,25,63,63,No,por pieza,MXN,No,Si,10,comedero_bota_metalico.webp,Comedero metálico de bota. Paquete de 25 piezas.
+VOL-MINI,Jaulas,Voladero,Mini,Alambre galvanizado calibre 12 y 10,,,,637,637,No,por pieza,MXN,No,Si,15,voladero.webp,Voladero mini de alambre galvanizado calibre 12 y 10.
+VOL,Jaulas,Voladero,1.5 x 1.5 x 1 m,Alambre galvanizado calibre 12 y 10,,,,735,735,No,por pieza,MXN,No,Si,15,voladero.webp,"Voladero de alambre galvanizado calibre 12 y 10, 1.5 x 1.5 x 1 m."
+VOL-2X2,Jaulas,Voladero,2 x 2 x 2 m,Alambre galvanizado calibre 12 y 10,,,,1275,1275,No,por pieza,MXN,No,Si,15,voladero.webp,"Voladero de alambre galvanizado calibre 12 y 10, 2 x 2 x 2 m."
+PAL-RJ,Jaulas,Palenquero,Rojo 60x60,Alambre galvanizado calibre 10,Rojo,,,525,525,No,por pieza,MXN,No,Si,14,palenquero_rojo.webp,"Palenquero de 60x60 cm, alambre galvanizado calibre 10, color rojo."
+PAL-SC-CP,Jaulas,Palenquero,Sin color 60x60 c/puerta,Alambre galvanizado calibre 10,,,,405,405,No,por pieza,MXN,No,Si,14,palenquero_rojo.webp,"Palenquero de 60x60 cm sin color, alambre galvanizado calibre 10, con puerta."
+PAL-SC-SP,Jaulas,Palenquero,Sin color 60x60 s/puerta,Alambre galvanizado calibre 10,,,,375,375,No,por pieza,MXN,No,Si,14,palenquero_rojo.webp,"Palenquero de 60x60 cm sin color, alambre galvanizado calibre 10, sin puerta."
+CAJ-TR,Accesorios avícolas,Caja transportadora,47 × 17 × 51 cm,,,,,48,48,No,por pieza,MXN,No,Si,13,caja_transportadora.webp,"Caja transportadora para aves de 47 cm de alto, 17 cm de ancho y 51 cm de largo."
+BOT-PVC,Accesorios avícolas,Botadores,PVC,Plástico,,,,60,60,No,por par,MXN,No,Si,12,botadores.webp,Par de botadores de PVC para gallo de pelea.
+BOT-PIEL,Accesorios avícolas,Botadores,Piel,Piel,,,,60,60,No,por par,MXN,No,Si,12,botadores.webp,Par de botadores de piel para gallo de pelea.
+BOT-AM,Accesorios avícolas,Botadores,Americano,Plástico,,,,60,60,No,por par,MXN,No,Si,12,botadores.webp,Par de botadores tipo americano para gallo de pelea.
+MONA-GR,Accesorios avícolas,Mona,Grande,Piel,,,,255,255,No,por pieza,MXN,No,Si,12,monas.webp,Mona grande de piel para gallo de pelea.
+MONA-CH,Accesorios avícolas,Mona,Chica,Piel,,,,195,195,No,por pieza,MXN,No,Si,12,monas.webp,Mona chica de piel para gallo de pelea.
+CALZA-L,Accesorios avícolas,Calza,Larga,,,,,21,21,No,por pieza,MXN,No,Si,13,calzas.webp,Calza larga para gallo de pelea.
+CALZA-C,Accesorios avícolas,Calza,Corta,,,,,15,15,No,por pieza,MXN,No,Si,13,calzas.webp,Calza corta para gallo de pelea.
+ROLLO-200,Accesorios avícolas,Rollo de hilo,200 m (verde),,Verde,,,263,263,No,por pieza,MXN,No,Si,13,rollo_hilo.webp,"Rollo de hilo de 200 m, color verde."
+ROLLO-150,Accesorios avícolas,Rollo de hilo,150 m (azul),,Azul,,,225,225,No,por pieza,MXN,No,Si,13,rollo_hilo.webp,"Rollo de hilo de 150 m, color azul."
+ROLLO-PARCHE,Accesorios avícolas,Rollo parche,Estándar,,,,,75,75,No,por pieza,MXN,No,Si,13,rollo_parche.webp,Rollo de parche para gallo de pelea.
+ATOM-1L,Accesorios avícolas,Atomizador,1 L,,,,,14.5,14.5,No,por pieza,MXN,Si,Si,16,atomizador.webp,Atomizador de 1 litro.
+DES-50,Bebederos,Destetador,Estándar,,,,50,17,17,No,por pieza,MXN,No,Si,5,destetador.webp,Destetador. Paquete de 50 piezas.
+CHUP-LAT,Bebederos,Chupón semiautomático para cerdo,Latón,Latón,,,,100,100,No,por pieza,MXN,No,Si,10,chupon_cerdo.webp,Chupón semiautomático de latón para cerdo.
+CHUP-INOX,Bebederos,Chupón semiautomático para cerdo,Acero inoxidable,Acero inoxidable,,,,150,150,No,por pieza,MXN,No,Si,10,chupon_cerdo.webp,Chupón semiautomático de acero inoxidable para cerdo.
+SOP-CNJ,Conejos,Soporte para conejera,Estándar,,,,,158,158,No,por pieza,MXN,No,Si,16,placeholder_sin_imagen.webp,Soporte para conejera.
