@@ -1,12 +1,12 @@
 import { MessageCircle, Eye, Factory, Truck, Award, ShieldCheck, Gem, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import { whatsappLink } from "@/config/business";
-import bebederoAutomatico from "@/assets/hero/bebedero-automatico.webp";
+import bebederoPiso from "@/assets/hero/bebedero-piso.webp";
 import comederoParaGallo from "@/assets/hero/comedero-para-gallo.webp";
 import comederoCampana from "@/assets/hero/comedero-campana.webp";
-import comederoTubular from "@/assets/hero/comedero-tubular.webp";
+import comederoLamina from "@/assets/hero/comedero-lamina.webp";
 import mayoreoDirecto from "@/assets/hero/mayoreo-directo.webp";
-import niplesAccesorios from "@/assets/hero/niples-accesorios.webp";
+import bebederoAutomatico from "@/assets/hero/bebedero-automatico.webp";
 
 const WHATSAPP_URL = whatsappLink(
   "Hola, me interesa conocer los productos avícolas de Coplast de México y solicitar una cotización.",
@@ -17,11 +17,11 @@ const WHATSAPP_URL = whatsappLink(
 // shipping a 404 into the hero. Filenames stay in Spanish, like every other
 // client-provided product photo in this repo.
 const products = [
-  { image: bebederoAutomatico, name: "Bebedero Automático" },
+  { image: bebederoPiso, name: "Bebederos de Piso" },
   { image: comederoCampana, name: "Comedero Tolva" },
   { image: comederoParaGallo, name: "Comederos para gallo" },
-  { image: comederoTubular, name: "Comedero Tubular" },
-  { image: niplesAccesorios, name: "Niples & Accesorios" },
+  { image: comederoLamina, name: "Comederos de Lámina" },
+  { image: bebederoAutomatico, name: "Bebederos Automáticos" },
   { image: mayoreoDirecto, name: "Mayoreo Directo" },
 ];
 
